@@ -1,0 +1,11 @@
+{% extends 'Aprendo/base.html' %}
+
+{% block page_header %}
+    <div class="jumbotron">
+        <h1 class="display-3">Seguimiento a su aprendizaje</h1>
+                
+        <p class="lead">Haga su propio seguimiento a su aprendizaje, mantenga una lista de los temas que esta aprendiendo.
+                Cuando aprenda algo nuevo acerca de un tema haga una nueva entrada resumiendo lo que aprendio</p>
+        <a class="btn btn-outline-center-primary" type="button" href="{% url 'users:register' %}"role="button">Register</a>
+    </div>
+{% endblock %}

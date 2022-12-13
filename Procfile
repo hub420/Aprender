@@ -1,1 +1,1 @@
-web: gunicorn Aprender.wsgi:application   
+gunicorn Aprender.wsgi:application   

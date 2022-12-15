@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'Aprender.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@aprenderEstoBase:5432/Aprender',
+        default='postgresql://postgres:postgres@aprenderEstoBase:5432/Aprendo',
         conn_max_age=600       
     ) 
 }
@@ -147,5 +147,5 @@ LOGIN_URL = 'users:login'
 LOGOUT_REDIRECT_URL = '/'
 
 # heroku propiedades 
-import django_heroku
-django_heroku.settings(locals())
+#import django_heroku
+#django_heroku.settings(locals())

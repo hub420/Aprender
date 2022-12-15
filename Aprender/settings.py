@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'Aprender.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://aprenderestobase/Aprender',
+        default='postgresql://postgres:aprenderEstoBase:5432/Aprender',
         conn_max_age=600       
     ) 
 }
